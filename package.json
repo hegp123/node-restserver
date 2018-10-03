@@ -1,16 +1,28 @@
 {
-    "name": "07-restserver",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "node server/server.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.18.3",
-        "express": "^4.16.3"
-    }
+  "name": "07-restserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17",
+    "mongoose-unique-validator": "^2.0.2",
+    "node-gyp": "^3.8.0",
+    "underscore": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hegp123/node-restserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hegp123/node-restserver/issues"
+  },
+  "homepage": "https://github.com/hegp123/node-restserver#readme"
 }
