@@ -65,9 +65,9 @@ async function verify(token) {
     });
 
     const payload = ticket.getPayload();
-    console.log(payload.name);
-    console.log(payload.email);
-    console.log(payload.picture);
+    // console.log(payload.name);
+    // console.log(payload.email);
+    // console.log(payload.picture);
 
     return {
         nombre: payload.name,
