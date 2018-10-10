@@ -95,7 +95,7 @@ app.put('/usuario/:id', [verificaToken, verificaAdmin_Role], (req, res) => {
 
     // delete body.password;
     // delete body.google;
-    console.log(body);
+    //console.log(body);
 
     Usuario.findByIdAndUpdate(id, body, { new: true, runValidators: true }, (err, usuarioDB) => {
         if (err) {
